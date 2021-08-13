@@ -1,0 +1,20 @@
+2021-04-27T00:21:09.221Z WARN @wdio/config:ConfigParser: pattern /Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/tests/e2e/**/*.spec.js did not match any file
+2021-04-27T00:21:09.239Z DEBUG @wdio/utils:initialiseServices: initialise service "chromedriver" as NPM package
+2021-04-27T00:21:09.293Z DEBUG @wdio/utils:initialiseServices: initialise service "geckodriver" as NPM package
+2021-04-27T00:21:09.294Z ERROR @wdio/utils:initialiseServices: Error: Couldn't find plugin "geckodriver" service, neither as wdio scoped package "@wdio/geckodriver-service" nor as community package "wdio-geckodriver-service". Please make sure you have it installed!
+    at Object.initialisePlugin [as default] (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/utils/build/initialisePlugin.js:41:11)
+    at initialiseServices (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/utils/build/initialiseServices.js:59:51)
+    at Object.initialiseLauncherService (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/utils/build/initialiseServices.js:86:26)
+    at Launcher.run (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/cli/build/launcher.js:81:73)
+    at launch (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/cli/build/commands/run.js:126:21)
+    at Object.handler (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/cli/build/commands/run.js:164:16)
+    at Object.runCommand (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/yargs/build/index.cjs:446:48)
+    at Object.parseArgs [as _parseArgs] (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/yargs/build/index.cjs:2697:57)
+    at Object.get [as argv] (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/yargs/build/index.cjs:2651:25)
+    at Object.run (/Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/node_modules/@wdio/cli/build/index.js:63:30)
+2021-04-27T00:21:09.311Z INFO @wdio/cli:launcher: Run onPrepare hook
+2021-04-27T00:21:09.312Z WARN @wdio/config:ConfigParser: pattern /Users/alexdesbans/Desktop/SophomoreSpring/CS290/portfolio_ard56/FinalProject/ui/tests/e2e/**/*.spec.js did not match any file
+2021-04-27T00:21:09.312Z ERROR @wdio/cli:launcher: No specs found to run, exiting with failure
+2021-04-27T00:21:09.312Z INFO @wdio/cli:launcher: Run onComplete hook
+2021-04-27T00:21:09.334Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-04-27T00:21:09.587Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully

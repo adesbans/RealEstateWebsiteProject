@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <!-- always put your name in your work -->
+      <meta name="author" content="Alex Desbans">
+      <!-- always label your name with a title -->
+      <title>Final Project</title>
+      <!-- scale page to fit entire screen, so it properly fills non-desktop devices -->    
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- DEV-only for easier refreshing: stop the web browser from ever caching this page or its images -->
+      <meta http-equiv="Cache-Control" content="no-cache" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Final Project Overview</h1>
+    <hr>
+    <p>
+        <strong>NOTE:</strong> I was unable to change my directory to match the project specifications. When I tried to change it, I got 
+        several errors that were not occuring beforehand. As a result, in order to have a functioning app, I did not change my directory.
+        My JavaScript files can be found in the /ui and /server folders. My /assets folder is within the /ui folder. My secrets.js files 
+        can be found in the /ui and /server folders. My /dist folder can be found in the /ui folder. Other than that, the rest of the 
+        directory should be correct.
+    </p>
+    <br>
+    <h3>Project Idea Description</h3>
+    <p>
+        My idea for my final project was to build a website for my dad's work. He works independently in real estate managing
+        many properties and tenants, but does not have a centralized website that includes all important information for both him and 
+        his tenants. He uses a handful of different expensive programs to manage rental applications, paying rent, and posting new listings,
+        and I created a website that has all those capabilities. This would be extremely useful for my dad and his tenants.
+    </p>
+
+    <br>
+
+    <h3>How My Project Works</h3>
+    <p>
+        My website supports 4 main functions. First, it has a page that displays all the available housing and all the 
+        information for each available apartment. Second, there is a page that lets potential tenants complete a rental application
+        for an available apartment. Third, for current tenants, there is a link that will let tenants pay their monthly rent. Fourth, for 
+        current tenants, there is a page that lets the user submit a maintenance request for the apartment they live in. When someone visits 
+        the website, they are able to log in using their Gmail account. Users are categorized as guests, tenants, or administrators in my code 
+        when they log in. A guest will only be able to view available housing and complete a rental application. A tenant will have the same 
+        abilties and will also be able to pay their monthly rent or request maintenance. An administrator can log in and will see "In Admin Mode" 
+        at the top of the screen. I plan to implement more abilities for an administrator as I continue to work on this website for my dad.
+    </p>
+
+    <br>
+
+    <h3>Attributions</h3>
+    <p>
+        All of the data for each apartment is stored on a site called <a href="https://www.zillow.com/" title="Zillow" target="_blank">Zillow.com</a>, 
+        which is a real estate site. I  use the <a href="https://www.zillow.com/howto/api/APIOverview.htm" title="Zillow API" target="_blank">Zillow API</a> 
+        to dynamically fetch this data and implement it in my site. I  credit Zillow where necessary for the information I get using their API. When a user clicks on an individual property 
+        or clicks the "See Images" button on a property, my site makes an additional call to my API and fetches more data to display. Moreover, I use 
+        the <a href="https://www.emailjs.com/" title="EmailJS" target="_blank">EmailJS</a> Vue component on the "Rental Application" and "Request Maintenance" 
+        pages. This allows the forms to be sent as emails. The Log In/Log Out feature uses <a href="https://cloud.google.com/apis" title="EmailJS" target="_blank">
+        Google's Cloud Services</a> in order to allow users to log in with their Gmail account. Last, the map under my "Avilable Housing" page is displayed using 
+        the <a href="https://vue2-leaflet.netlify.app/" title="Leaflet" target="_blank">Leaflet</a> Vue component.
+    </p>
+    
+    <br>
+
+    <h3>Important Links</h3>
+    <p>
+        Follow this link to see my final website :  <a href="https://compsci290_2021spring.dukecs.io/portfolio_ard56/FinalProject/ui/dist/" title="Final Project" target="_blank">Final Project Website</a>
+    </p>
+    <br>
+    <p>
+        Follow this link to see my final demo :  <a href="https://youtu.be/vef7BQQkPqQ" title="Final Demo" target="_blank">Final Demo</a>
+    </p>
+    <br>
+    <p>
+        Follow this link to see small addition to my final demo:  <a href="https://youtu.be/2G1Kd8zMrXI" title="Final Demo Extra" target="_blank">Final Demo Admin Ability</a>
+    </p>
+    <br>
+    <p> 
+        Follow this link to see example JSON data that is used in my project : <a href="https://banana-crisp-29603.herokuapp.com/api/get_data" title="JSON Data" target="_blank">See Data</a>
+    </p>
+
+   
+    
+  </body>
+</html>

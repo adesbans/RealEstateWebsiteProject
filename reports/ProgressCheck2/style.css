@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+    margin-left: 10px;
+}
+
+.class {
+    margin-bottom: 15px;
+}

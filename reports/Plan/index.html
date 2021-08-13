@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <!-- always put your name in your work -->
+      <meta name="author" content="Alex Desbans">
+      <!-- always label your name with a title -->
+      <title>Final Project</title>
+      <!-- scale page to fit entire screen, so it properly fills non-desktop devices -->    
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- DEV-only for easier refreshing: stop the web browser from ever caching this page or its images -->
+      <meta http-equiv="Cache-Control" content="no-cache" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Final Project Plan</h1>
+    <hr>
+    <h3>Idea</h3>
+    <p>
+        My idea for my final project is to build a website for my dad's work. He works independently in real estate managing
+        many properties and tenants, but does not have a centralized website that includes all important information for both him and 
+        his tenants. He uses a handful of different programs to manage rental applications, paying rent, and posting new listings,
+        and I would like to create a website that has all those capabilities. This would be extremely useful for my dad and his tenants.
+    </p>
+
+    <br>
+
+    <h3>Scope</h3>
+    <p>
+        My website will support 4 main functions. First, it will have a page that displays all the available housing and all the 
+        information for each available apartment. Second, there will be a page that lets potential tenants complete a rental application
+        for an available apartment. Third, for current tenants, there will be a link that will let tenants pay their monthly rent. Fourth, for 
+        current tenants, there will be a page that lets the user submit a maintenance request for the apartment they live in. Potential tenants
+        will have access to the first two function and current tenants will have access to all four functions. When someone loads the page, they 
+        will be considered a potential tenant until they sign in. Current tenants can sign in with their unique login, which will give them the 
+        ability to either pay rent or request maintenance. Lastly, when my dad loads the page and signs in as the page administrator, he will also 
+        have the ability to add or remove listings from the available housing page and see all of his aparments' info. In general, this page will use a combination of the Zillow API to 
+        get housing data and some local data to display all the information about the apartments. Users will be able to input data in the form of either logging
+        in, requesting maintenance, or submitting a rental application. An optional feature for my page will be to have a search bar in the available housing 
+        page and a search bar at the top of the page for the administrator, allowing them to search within all of the site's data.
+    </p>
+
+    <br>
+
+    <h3>Data Sources</h3>
+    <p>
+        All of the data for each apartment is stored on a site called <a href="https://www.zillow.com/" title="Zillow" target="_blank">Zillow.com</a>, which is a real estate site. I will use the 
+        <a href="https://www.zillow.com/howto/api/APIOverview.htm" title="Zillow API" target="_blank">Zillow API</a> to dynamically fetch this data and implement it in my site. I will credit Zillow where necessary for the information I get using their 
+        API. I will pair this data with any local data that I need to properly implement all of my desired functions.
+    </p>
+
+    <br>
+
+    <h3>Data Structure</h3>
+    <p>
+        I will have a local JavaScript file that holds my local data. I will dynamically fetch the rest of my data for each 
+        apartment using the Zillow API.
+    </p>
+
+    <br>
+
+    <h3>Wireframe</h3>
+    <h5>Landing Page</h5>
+    <img src="PlanImages/Landing Page.png" width="700px" class="image">
+    <h5>Available Housing Page</h5>
+    <img src="PlanImages/Available Housing.png" width="700px" class="image">
+    <h5>Rental Application Page</h5>
+    <img src="PlanImages/Rental Application.png" width="700px" class="image">
+    <h5>Request Maintenance Page</h5>
+    <img src="PlanImages/Request Maintenance.png" width="700px" class="image">
+    <p>
+        **The pay rent button will take the user straight to a seperate site that handles payment.**
+    </p>
+
+    <br>
+
+    <h3>Schedule</h3>
+    <p>
+        <ul>
+            <li>April 8 - Finish structure of landing page and complete "pay rent" page.</li>
+            <li>April 15 - Finish "rental application" and "request maintenance" pages.</li>
+            <li>April 22 - Finish implementing Zillow API and local data to get "available housing" page working.</li>
+            <li>April 28 - Implement login feature for potential tenants, current tenants, and administrator. Possibly implement optional features.</li>
+        </ul>
+    </p>
+    
+  </body>
+</html>
